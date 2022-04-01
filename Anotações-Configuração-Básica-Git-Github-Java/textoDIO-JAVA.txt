@@ -1,0 +1,196 @@
+			GIT E GITHUB
+	
+	--> SHA1
+	--> OBJETIVO FUNDAMENTAL
+	--> SISTEMA DISTRIBUÍDO
+	--> SEGURANÇA
+
+	--> SHA1 AGORITMO DE ENCRIPTAÇÃO, ALGIRITMO DE HASH SEGURO
+	É UMA FORMA CURTA DE REPRESENTAR UM ARQUIVO QUE CRIA UM ARQUIVO COM 40 CARACTERES HA
+	COMANDO PARA CRIPTAR GIT SHA1 --> OPENSSL SHA1 NOMEARQUIVO.TXT CRIA UM CONJUTO CARACTERES
+ 	É USADO PARA IDENTIFICAÇÃO DE ARQUIVO
+	--> OBJETO FUNDAMENTAL
+
+		--> BLOBS
+			#TIPO DO OBJETO 
+				-TAMANHO
+				-\0
+				-CONTEUDO
+				COMANDO ECHO -E BLOB 9\0CONTEUDO
+		--> TREES
+			# AS TREE ARMZENAM BLOBS
+				TMANHO
+				\0
+				BLOB SA4D8S TEXTO.TXT
+
+		--> COMMITS
+			# APONTA PARA UMA ARVORE, APONTA PARA ULTIMO COMMITS
+			CARIMBO DE TEMPO QUANDO FOI CRIADO
+			TAMANHO
+			TREE S4A5SQ1
+			PARENTE
+			AUTOR
+			MENSAGEM 
+			TIMESTEMP
+			QUALQUER ALTEREÇÃO, ALTERA TODO O COMMIT
+
+		-->SISTEMA DISTRIBUIDO SEGURO
+
+
+		SISTEMAS QUE POSSUI MULTIPLAS CÓPIAS DE SI MESMO EM DIFERENTE LOCAL
+			
+		É SEGURO PORQUE SEUS OBJETOS ESTÃO LIGADOS DE MANEIRA ENCADEADA E DE DIFICIL ALTERAÇÃO
+a
+	--> PRINCIPAIS COMANDOS DO GIT
+
+			-- GIT INIT (INICIAR O REPOSITÓRIO DO GIT)
+
+			-- comando LS -A (mostra arquivos ocultos)
+
+			-- git status (mostra os ARQUIVOS add)
+			
+			-- GIT CONFIG --GLOBAL user.name nome (configuração de registro GIT CONFIG --GLOBAL USER.EMAIL "...")
+
+			-- git config --global --unset user.name ou user.email (remonver user.name e user.email)
+
+			-- git remote add origin URL copiada do github (Apontar o commit pra repositorio REMOTO)
+
+			-- git remote -v (mostra a lista de repositorio remoto)
+
+			-- git add * OU O NOME DO ARQUIVO (adiciona todos os arquivo do repositório)
+
+			-- git commit -m "commit inicial" (INSERINDO UM COMMIT)
+			
+			-- git pull main (pucha os arquivo braches)
+			
+			-- git branch
+			
+			-- git push origin master
+
+			--  
+
+	--> COMANDOS DO MARKDOWN
+			markdown = navegador = HTML
+			forma mais humana de se escrever html
+			typora editor de texto markdow
+				comandos titulos "# ate o 6"
+				texto em negrito "**...**"
+				texto italico "_..._"
+			mover um arquivo
+				mv arquivo ./pasta/
+				cd receitas entra na pasta
+				cd.. sai da pasta
+			criar commit 
+				git commit -m "cria pasta receitas, move arquivos para pasta receita"
+				echo > README.md
+		-GIT ADD
+		-GIT COMMIT objeto chave
+
+	# untracked
+		-->adiciona arquivo
+	# tracked
+		*Unmodified
+			--> edita o arquivo
+			<-- remove o arquivo
+
+		*modified
+			-->"stage" o Arquivo
+		*staged
+			<-- commit
+
+	*Servidor
+
+		-->remote repository
+
+	*ambiente de desenvolvimento
+
+		--> Working Diretory
+		--> Staging Area
+		--> Local repository quando faz um commit
+	*verifica git compativel
+		--> 
+		
+
+			
+			
+
+				###### PROGRAMAÇÃO JAVA AND ANGULA #########
+			-- BRANCHES 
+				-- Uma estrutura do Git que te possibilita trabalhar de forma paralela a 
+				   branch principal de forma segura.
+				--SÃO RAMIFICAÇÕES DE UMA BRACHES PRINCIPAL, ONDE PODEMOS TRABALHAR PARALELAMENTE SEM 
+				  ALTERAR A BRACHES PRINCIPAL E  NO FINAL FUNDE AS RAMIFIÇÕES COM A BRANCHES PRINCIPAL
+			   - REPOSITORIO NO GITHAB 
+			   - BRANCHES MAIN Ou PADRÃO
+			   - DIFERENÇA ENTRE AS BRANCHES MAIN x MASTER
+			   - NAVEGAÇÃO EM BRACHES a tag HEAD
+
+				- HEAD E IGUAL A MASTER.
+				- É UMA TEG DO COMMIT QUE APONTA PRO ULTIMO COMMIT VALIDO
+			   - CRIAR, EDITAR, DELETAR (LOCLAMENTE)
+
+			   - COMANDO CHECKOUT E MARGE
+				- É UM COMANDO PRA SE MOVIMENTA ENTRE AS BRANCH
+					- GIT CHECKOUT -B NOMEBRANCH
+					- GIT CHECKOUT -B MAIN
+
+				- renomeia o nome da branch 
+				- git checkout novo nome ou
+				- git checkout novo nome nome da branch atual
+
+				- E UM COMANDO QUE UNI AS BRANCH
+				- comando pra deletar branch 
+				- git branch -d o nome da branch a ser deletada
+
+			  - COMANDOS STASH E SEUS SUBCOMANDOS 
+				- pequena ciaxa pra guarda as alterações feitas no código
+				
+				- comandos 
+					
+					--PASSO 1 ADD DOIS ARQUIVOS: echo > arquivo3.txt e echo > arquivo4.txt
+					--PASSO 2 LISTAR OS ARQUIVOS: ls
+					--PASSO 3 ADD ARQUIVOS NO STASH: git add*
+					--PASSO 4 CONFIRIR SE FOI ADD: git status
+					--PASSO 5 CRIAR UMA BRANCH NOVA: git checkout -b nome branch
+					--PASSO 6 GUARDA AS ALTERAÇÕES COM STASH: git stash save "contexto"
+					--PASSO 7 LISTA OS ARQUIVOS NO STASH: git stash list 
+				--SAIR DO STASH: git stash pop 1
+				--LIMPAR O STASH: git stash clear
+
+			-- COMANDO GIT LOG 
+				--mostra as alteraçoes feita no commits por diferentes desenvolvedores 
+				-- gitk abri a interface gráfica
+
+			--REVERTER COMMITS
+				-- COMANDOS 
+					-- GIT REVERT
+						-- manipula os commits 
+					-- GIT RESET
+						-- manipula os arquivos
+						-- soft (forma inversa do git add)
+						-- mixed (é o defold)
+						-- hard 
+			 --Estrutura do commit
+				-- commits atômicos 
+				-assunto
+ 					- curto e compreensível
+					- até 50 caracteres 
+					- começar com letra maiúscula
+					- não terminar em ponto
+					- escrito de forma imperativa
+				-corpo
+					- adicione detalhes ao commit
+					- tente quebrar a linha em 75 caracteres 
+					- identifique sua audiència
+					- explique tudo
+					- use markdown 
+				-rodapé		
+					- referencie assunto relacionados
+
+				- conventional commits
+
+	git branch -m nome-antigo nome-novo muda nome da branch
+	Gera um commit com as alterações inversas git reset é usado
+	Gera um commit com as alterações inversas criar uma branch
+	uma cópia da branch origem pronta para receber mais commits uma branch nova é
+	flags --oneline e graph Modificam a saída do git log formatando de maneira diferente					

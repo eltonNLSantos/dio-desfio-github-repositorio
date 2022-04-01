@@ -1,0 +1,61 @@
+			Pensamento computacional 
+	=> Pilares 
+		-> Decomposição
+			--> Estrategia
+				---> Análise - Processo de quebrar e determinar partes menores e gerenciáveis
+				---> Síntese - combinar os elementos recompondo o problema original(Processo de reconstrução; consiste em reunir elementos distintos em 
+						um único elemento; fundir elementos de maneira coerente.)
+					- variáveis 
+					- pequeno problema 
+					- segmentação
+						*Não basta aplicar 
+						*Desenvolver a decomposição "by yourself"
+							maneira distintas de decompor o mesmo problema
+					- Como decompor
+						- entenda oproblema 
+						- identifique
+							- componentes 
+							- características, dependências
+							- segundo plano problema preincipal
+						* Exemplo do cotidiano: funcionamento de uma bike
+							- identificar os componentes 
+							- papel de cada componenete
+							- interdependencia das peças 
+							- E como funciona o sistema
+					- criar um app
+						- finalidade 
+						- interface
+						- funcionalidade 
+						- pré-requisitos
+							- definição de componentes e etapas
+							- desenvolvimento mais eficiente
+		-> Reconhecimento de padrões
+			--> Modelo Base
+			--> Estrutura invariante
+			--> Repetição
+		-> Abstração
+			Abstrair - observar, um ou mais elementos e avaliar suas caracteristicas e propriedades separadas
+			Abstração - Processo intelectual de isolamento de um objeto da realidade
+			Generalizar - Tornar-se geral, mais amplo extensão 
+			--> Represntação de dados
+		-> Algoritmo
+			Descreve o problema por maeio de ferramenta narrativas, fluxograma ou pseudocódigo
+			- codificação 
+				o algoritmo é codificado de acordo com a linguagem de programação escolhida
+			--> definições
+				Sequência de passos com objetivos definido
+				Execução de tarefas específicas
+				conjuntos de operações que resultam em uma sucessão finita de ações
+			--> Como construir um algoritmo
+				---> Compreenção do problema
+					Pontos mais importante
+				---> Definição dados de entrada
+					Dados fornecidos e Cenário
+				---> Definir processamento
+					Cálculos e restições 
+				---> Definir dados de saída
+					Após processamento
+				---> Utilizar um método de coonstrução
+					construção e refinamento do algoritmo
+				---> Teste e diagnóstico
+					

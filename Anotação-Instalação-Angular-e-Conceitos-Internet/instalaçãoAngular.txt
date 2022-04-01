@@ -1,0 +1,91 @@
+			Instalção do Angular/cli (prompt)
+	# npm install -g @angular/cli
+	# npm fund 
+	# ng version
+	senha mysql -- Vej@8682
+	SENHA PERMIÇÃO  BD &lton123@
+github.com/julianazanelatto/devweek
+github.com/rpeleias/springboot_digital_innovation_one
+	
+	o que vai ser usado no projeto cancer de mama
+		As entidade ralicionadas a tabela BD
+	Pacotes 
+		Entity
+			FaixaEtaria
+			IncidenciaExame
+			Regiao
+	repositorio os metodos das perssistencia de dados
+		Repository
+			FaixaEtariaRepo
+			OcorrenciaRepo
+			RegiaoRepo
+	Cotroller vai ficar as requisições 
+		Controller
+			ControllerFaixaEtaria
+			ControllerOcorrencia
+			ControllerRegiao
+	Criando projeto no springboot
+	site: start.spring.io
+	configuração pra gerar lo projeto Java 
+	project
+		Maven Project
+	Languenge
+		Java
+	ecolher a versão  do springboot
+		2.6.4 que no momento é a versão extável
+	dados do projetos ou nome do projeto
+	packaging java
+	versão di java
+	Dependencia
+		Spring Data JPA
+		Spring boot DevTools
+		Spring web
+		Mysql driver
+	Dependencia que não temno site
+		<!-- https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api -->
+		<dependency>
+    			<groupId>javax.xml.bind</groupId>
+    			<artifactId>jaxb-api</artifactId>
+    			<version>2.4.0-b180830.0359</version>
+		</dependency>
+
+
+
+	Spring boot
+		=> os problemas que o spring boot resolve, é a produtividade: Deisponibiza desde o começo, um projeto pronto para desenvolvimento e execução
+		nenhuma configuração extra de arquivo web, banco de dados e suporte a transações e requerida.
+		=> As formas de atribuir um valor de propriedade em um projeto Spring boot, além de arquivo application.properties pode se atribui valores atraves de command lina,
+		variaveis de ambiente, dentro do arquivo pom.xml e atraves de aquivo application.yml.
+		=> A propriedade que indicamos para utilizar o Profle para o ambinte de desenvolvimento no arquivo padrão é o spring.profiles.active=dev
+		=> A finalidade da notação @ConfigurationProperties em uma classe java é mapea ppropriedade que tem haver em comum em um arquivo de configuração java
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		

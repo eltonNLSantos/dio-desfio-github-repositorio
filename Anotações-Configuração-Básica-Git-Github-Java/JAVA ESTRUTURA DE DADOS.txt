@@ -1,0 +1,48 @@
+		ESTRUTURA DE DADOS EM JAVA
+	#ATRIBUIÇÃO E REFERÊNCIA
+		-> AS ATRIBUIÇÃO EM JAVA SÃO POR CÓPIA DE VALOR SEMPRE;
+		-> COM TIPO PRIMITIVO, COPIAMOS O VALOR EM MEMÓRIA;
+		-> COM OBJETOS COPIAMOS O VALOR DA REFERÊNCIA EM MEMÓRIA;
+	#PILHAS [LIFO:LAST IN, FIRST OUT]
+		-> LIFO
+		-> LAST IN FIRST OUT
+		-> O ÚLTIMO ELEMENTO QUE ENTRA É O PRIMEIRO A SAIR
+		#ENCADEAMENTO DE NÓ
+			-> MÉTODO -> TOP (No meuNo = pilha.top(); int numero = meuNo.getInt():)
+			-> MÉTODO -> POP (No meuNo = pilha.pop(): int numero = meuNo.getInt();)
+			-> MÉTODO -> PASH (No meuNo = new No(); meuNo.set.Int(1);)
+			-> MÉTODO -> isEmpty
+				public boolean isEmpty(){
+					if(refNo == null){
+						return true;
+					}
+					return false;
+				}
+	#FILA [FIFO: FIRST IN, FIRST OUT]
+		-> PRINCIPAIS MÉTODOS 
+			-->enqueue() - Enfilera
+			-->dequeue() - desenfilera
+			-->isEmpty() - testa se ta vásio
+	#LISTA ENCADEADA 
+		#Principais Métodos
+			-->.add(); .remove(); isEmpty(); .size(); .get().
+	
+
+	#Listas duplamente Encadeadas
+		Principais funções
+			.size();
+			.getNo(); get();
+			.add();
+			.add(index);
+			.remove();
+			.toString();
+			 
+
+
+
+
+
+
+
+
+			
