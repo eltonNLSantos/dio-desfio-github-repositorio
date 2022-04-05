@@ -1,0 +1,70 @@
+		Aula de Javascript
+	=> Coleção Chaviada Map
+		-> Características
+			--> Uma coleçao de arrays no formato [chave, valor]
+			--> Pode ser iterado por um loop for...of
+		-> Métodos
+			const myMap = new Map()
+			-->Adicionar
+				myMap.set ('apple', 'fruit');
+			--> Ler
+				myMap.get('apple');
+			--> deletar
+				myMap.delete("apple");
+			--> ler
+				myMap.get("apple");
+		-> Diferença entre Map e Objeto
+			--> Maps podem ter chave de qualquer tipo;
+			--> Maps possuem a propriedade length;
+			--> Maps são mais fáceis de iterar;
+			--> Utilizado quando o valor das chaves é desconhecido;
+			--> Os valores tem o mesmo tipo;
+	=> Coleção Chaviada Set
+		-> Caracteristicas
+			--> Sets são estruturas que armazenam apenas VALORES ÚNICOS
+		-> Métodos
+			const mySet = new Set();
+			--> Adicionar
+				mySet.add(1);
+				mySet.add(5);
+			--> consultar
+				mySet.has(1);
+				//true
+				mySet.has(3);
+				//false
+			--> deletar
+				mySet.delete(5);
+		-> Difereça entre Set e Array
+			--> Possui valores únicos;
+			--> Em vez da propriedade length, consulta-se o número do registro pela propriedade size;
+			--> Não possui os métodos map, filter, reduce etc.
+
+				## Aulas Debugging e Error Handling ##
+	=> Tratamento de Erros
+		-> ECMAScript Error
+			--> Erros que ocorrem em tempo de execução
+			--> Composto por: 
+				---> Mensagem
+				---> Nome
+				---> Linha
+				---> Call Stack
+		-> DOMException
+			--> Erros relacionados ao Document Object Model (DOM)
+				errros de estrutura de elementos em uma página da web
+		-> THROW
+			--> o Return retorna uma String qualquer e o throw retorna um erro de copilação
+		-> Try...catch
+			--> Permite que seja malipulado os erros de uma maneira mais organizada	
+
+		-> finally
+			--> uma função que vai ser chamada se tiver erro ou não
+		-> Objeto Error
+
+
+  //Se o tamanho do array for diferente do número enviado como parâmetros, lance um erro do tipo RangeError
+//Filtre as chamadas de catch por cada tipo de erro utilizado o operador Instanceof
+
+
+		##JavaScript assincronicidade##
+
+			 
