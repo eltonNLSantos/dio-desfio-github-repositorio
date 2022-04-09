@@ -66,5 +66,26 @@
 
 
 		##JavaScript assincronicidade##
+	-> Assíncrono
+		"Que não ocorre ou não se efetiva ao mesmo tempo"
+		--> Promises 
+			---> Objeto do processamento assíncrono
+			---> Inicialmente seu valor é desconhecido. Ele pode,
+				então, ser resolvida ou rejeitada
+			---> Tem 3 estados
+				=> Pending
+				=> Fultilled
+				=> Rejected
+			--> Async/await
+		--> Consumindo APIs
+			---> Uma API é uma forma de intermediar os resultados do back-end com o que é apresentado no front-end
+			---> Consegue acessá-la por meio de URLs.
+			---> É muito comumque APIs retornem seus dados no formato .json, portanto precisamos tratar
+				esses dados quando os recebermos.
+			---> Fetch
+				=> pode fazer operações no banco (POST, GET, PUT DELETE, etc)
+			gitstephane - github.com/stebsnucsch/basecamp/tree/main/javascript-assincrono/projetos-html
+				
+
 
 			 
