@@ -69,22 +69,99 @@
 	-> Assíncrono
 		"Que não ocorre ou não se efetiva ao mesmo tempo"
 		--> Promises 
+			---> Um objeto JavaScript que possui três estados 
 			---> Objeto do processamento assíncrono
 			---> Inicialmente seu valor é desconhecido. Ele pode,
-				então, ser resolvida ou rejeitada
+				então, ser pendente,  resolvida ou rejeitada
+			---> Podemos utilizar promises em declaração try...catch
 			---> Tem 3 estados
 				=> Pending
 				=> Fultilled
 				=> Rejected
 			--> Async/await
+				---> Await - operador especifico para lidar com promises
 		--> Consumindo APIs
 			---> Uma API é uma forma de intermediar os resultados do back-end com o que é apresentado no front-end
 			---> Consegue acessá-la por meio de URLs.
-			---> É muito comumque APIs retornem seus dados no formato .json, portanto precisamos tratar
+			---> É muito comum que APIs retornem seus dados no formato .json, portanto precisamos tratar
 				esses dados quando os recebermos.
 			---> Fetch
+				---> retorna um promise
 				=> pode fazer operações no banco (POST, GET, PUT DELETE, etc)
+			---> APIs(Application Programming Interface) - é uma interface que possibilita a comunicação entre plataforma
+			---> JSON(javascript object notation) - é um formato de troca informações, muito utilizada na comunicação de foront-ands com APIs
 			gitstephane - github.com/stebsnucsch/basecamp/tree/main/javascript-assincrono/projetos-html
+
+		## Orientção Obejeto com JavaScript##
+	-> Paradigmas da orientação objeto
+		--> Os programas são "objetos"que possuem uma serie de propriedades.
+		--> O método super() pode ser utilizado em classes que herdam propriedades de outras 
+		--> Getters  e Setters são utilizados como modificadores de um valor
+		--> Pilares:
+			- Herança
+				 => O objeto filho (descendente) herda propriedade e metodos do objeto pai(ascendente)
+			- Polimorfimos
+				=> Objetos podem herdar a mesma classe pai, mas se comportar de forma diferente quando invocamos seus métodos 
+				=> O conceito de que classes mais complexas herdam métodos de classes mais abstratas e os executam à sua 
+					maneira
+			- Encapsulamento
+				=> cada classe tem pripriedades e métodos independentes do resto do código
+				=>=> Propriedades e métodos de uma classedizem respeito a apenas a ela 
+			- Abstração
+				-> processo mental que onsiste em isolar um aspecto determinado de um estado de coisas relativamente complexo, a fim de simplificar
+					a sua avaliação, classificação ou para permitir a comunição do mesmo.
+		--> OOjs
+			--> Protótipos 
+				---> Todos os objetos Javascript herdam propriedade e metodos deum prototype. Oobjetod Object.prototype está no topo desta cadeia
+				---> São responsáveis pelo conceito de herança em javascript
+		--> Classes
+			- obs: não existe nativamente
+			---> Syntatic sugar: Uma sintaxe feita para facilitar a escrita 
+			---> todas as classes são objeto e a herança se dá por protótipos
+	-> O que é, Sintaxe e Map vs forech
+		--> Mep
+			--> Cria um novo array
+			--> Não modifica o array original 
+			--> Realiza as operações em ordem 
+			--> Sintaxe
+				---> array.map(callback, thisArgs)
+				---> callback(item, index, array)
+				---> callback - função a ser executada em cada elemento
+				---> thisArgs - (opcional) o valor 'this' dentro da função de callback
+			--> Map vs forEach
+				---> Valor de retor
+´´´´´´´´			---> Conseidere se o array auxiliar sera necessario
+			--> Filter
+				---> Cria um novo Array
+				---> Não modifica o array original
+				---> Sintexe
+					----> array.filter(callback, thisArgs)	
+						ex: const frutas = ['maçã fuji', 'maçã verde', 'laranja', 'abacaxi'];
+						    frutas.filter((frutas) =>frutas.includes ('maçã'))
+							retorna : todos os tipos de maçã
+			--> Reduce
+				---> Executa uma função em todos elementos do array, retornando um valor unico
+				---> Sintaxe
+					----> array.reduce(callbackFn, initialValue)
+					----> callback: Funçãoa a ser executada a partir do acumulador 
+					----> initialValue: Valor sobre o qual o retorno final ira atuar  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		 
+			
 				
 
 

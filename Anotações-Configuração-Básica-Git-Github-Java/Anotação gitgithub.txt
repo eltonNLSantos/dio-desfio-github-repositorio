@@ -1,7 +1,22 @@
 	comandos do git bash
+	git clone url
 	git Status - mostra os arquivos no repositório
 	git add -A (add tudo o que foi criado na pasta) ou git add . (esses comandos add no repositorio local)7
 	
 	git commit -m "mensagem para inclusões"
 	
 	git push origin main 
+
+comandos prompt de comando do navegador
+
+const minhaConta = new ContaBancaria(1, 234, true)
+undefined
+minhaConta.saldo
+0
+minhaConta.depositar(1000)
+1000
+minhaConta.sacar(500)
+500
+minhaConta.saldo
+500
+minhaConta.sacar(600)s
