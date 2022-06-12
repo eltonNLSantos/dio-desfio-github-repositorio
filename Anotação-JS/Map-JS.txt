@@ -146,9 +146,63 @@
 					----> callback: Funçãoa a ser executada a partir do acumulador 
 					----> initialValue: Valor sobre o qual o retorno final ira atuar  
 
-
-
-
+	-> DOM (Document Object Model) E BOM
+		--> DOM HTML é um padrão de como acessar e modificar elementos html de uma página
+		--> BOM - Browser Object Model - tudo que esta dentro do objeto windows 
+			windows - document 
+				- history
+				- location
+				- screen 
+				- navigator
+		--> Metodos de uma pagina 
+			---> selecione os elemento de uma pagina atraves do ID
+				document.getElementById('titulo');
+				//<h1 id="titulo">minha pagina</h1>		
+			---> seleciona um array da tag ex: <li>
+				document.getElementsByTagName('li');
+			---> Acessa o primeiro elemento na pagina class
+				docunmet.getElementsByClassName('textos');
+			---> Busca elementos que possui duas classes
+				document.querySelectorAll('.primeira-classe .segunda-classe');
+			---> pode ser feita uma busca combinanda uma tag e uma classe
+				document.querySelectorAll('li .opcao');
+			---> metodos para add e deletar elementos 
+				- document.createElement(element)
+					* Cria um novo elemento HTML
+				- document.removChild(element)
+					* Remove um elemento
+				- document.appendChild(element)
+					* Adiciona um elemento
+				- document.replaceChild(new, old)
+					* Substitui um elemnto
+			---> Acessando diretamente o css de um elemento
+				documen.getElementsByTagName("p").style.color = "blue";
+		--> Eventos
+			---> Tipos de eventos que o Usuario faz na pagina da web
+			---> tipos de evetos
+				=> Eventos do mouse
+					* mouseover
+					* mouseout
+				=> Eventos de clique
+					* click
+					* dbclick
+				=> Eventos de atualização
+					* Change
+					* load
+			---> Acionamento dos eventos em js
+				=> Diretamente no Javasccript, cria um evento que vai ser
+				   axionado no momento em que o usuario realizar determinada ação
+					Ex: const botao = document.getElementById(meuBota);
+					    botao.addEventListener("click", outraFunção);
+			---> Atributo HTML
+				=> Especifica a função a ser chamada direetamente no elemento HTML
+					Ex: <h1 oclick="midaTexto(ths)>"Clique aqui!</h1>
+					     <script>
+						function mudaTexto(id){
+							id.innerHTML = "Mudei!"
+						}
+					      </script>
+			
 
 
 

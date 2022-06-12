@@ -1,0 +1,4 @@
+		##Curso Completo de Banco de Dados e Sql##
+	-> Primeiro software para ser instaldo é o VirtualBox
+	-> Vitualização do sistema Operacional Windows 10
+	

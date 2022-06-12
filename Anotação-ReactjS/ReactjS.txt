@@ -1,0 +1,15 @@
+		### ReactjS ###
+	-> Uma biblioteca javScript para criar interfaces de usuário
+	-> Aprincipal função é a criação da interface para o  usuario
+	-> React é uma inguagem declarativa 
+	-> Declarativa vs Imperativa 
+	-> O React está apenas preocupado com i que é eibido nainterface do usuario
+	-> É baseado em  componentes 
+	-> Pode ser utilizado em qualquer lugar 
+
+
+
+
+
+
+

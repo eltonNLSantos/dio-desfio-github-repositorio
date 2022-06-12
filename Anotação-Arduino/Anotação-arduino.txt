@@ -1,0 +1,70 @@
+		
+
+		###Arduino###
+ 	-> E uma plataforma de prototipagem de eleronica e software
+		formado por uma placa(hardware) e um ambiente de programação
+	-> As varias versões do arduino disponivel no mercado, as mais populares são: UNO, MEGA E NANO
+	-> O arduino sozinho não tem  muita utilidade, são  os modolos sensores que fazem o arduino funcionar
+	-> o Arduino e uma plataforma open source
+	-> A linguagem de programação Arduino e derivada da linguagem C
+	-> Materias 
+		Placa arduino
+		Protoboard (Placa de ensaio onde pode ser conectados compnentes de forma tempora)
+		Jumpers par protoboard(macho-macho e macho-femea
+		LED difuso e RGB
+		Resistores 220 OHMS, 1K e 10K
+		Diodo 1N4007
+		Chave tatil ou mini push button
+		pontenciometro linear 1k ou 5k
+		Display de 7 seguimentos 
+		Buzzer de 5V
+		Rele de 5v na bubina 
+		sensor de luminosidade LDR DE 10K
+		Termistor NTF 10k
+		Micro servo motor sg90
+		Minimotor DC 6V
+		-> compnente da placa Arduino
+			-Microcotrolador ATMEG328
+				-É ONDE FICA GRAVADO O PROGRAMA DESENVOLVIDO e tambem controlar todas as ações executadas pela placa
+			- Cristal oscilador: define o clock
+				- A velocidade em que o microcontrolador vai operar
+			- Conector P4 para fonte externa (O Arduino aceita variações de alimentações que variam de 6v a 20v,
+				o recomendade que o não trabelhe com fontes menor que 7v e maior que 12v)
+				tensões indicadas: 9V ou 12V
+			- Regulador de Tensão
+			- conector de cabo USB
+			- Botão de reset
+			- LEDs
+				Integrado(led do pino 3)
+				led leitura e gravação
+				led que indica se ta ligada ou não 
+			- Pinos digitais
+				- rx e tx -que são resebimento de dados via serial
+				- pinos ~ do lado são pinos pwm pode controlar a quantida de carga ou tensão que vai sair dos pinos de sinais 
+			- Pinos Analogico
+				- gravar ou enviar informaçoes de forma analogicas, geralmente usados pra conexão com sensores
+			- Pinos de Alimentação 
+
+		-> IDE Sketch Arduino 1.8.4
+			- Drive controlador USB pra o arduino ser reconhecido no SO windows
+				- no menu ferramenta selecionar o tipo de placa arduino (Opção Placa) 
+				- novamente no menu ferramenta selecionar a opção Porta (ex: COM3 (Arduino/Genuino UNO))
+			- Botões da IDE Sketch Arduino
+				- Verificador dde erro no codigo
+				- carregar o cdodigo na placa arduino
+			
+				- no canto superio direito tem o botão de ver ou enviar dados de forma sereal pra o arduino
+			
+		-> calculo de resistor em um led
+			arduino trabalha com 5v, para calcular temos que saber, a tensão que voce
+			tem, a tensão que você quer chegar e a corrente que o lad consome
+			os led trabalhao com tensão de 1,8v, 2v,  1,5v, 1,7v
+			para descobrir a voltagem do led - é so utilizar a folha de dados do led fornecida pelo fabricante 
+			-> o calculo é feito 
+				voltagemdoarduino - voltagemdoled
+				em seguida dividir o resultado da subtração
+				dividido pela tensão 0,02A 
+				Ex: arduino de 5v
+				    led de 1,8v
+				    5 - 1,8 = 3,2
+				    3,2/0,02
