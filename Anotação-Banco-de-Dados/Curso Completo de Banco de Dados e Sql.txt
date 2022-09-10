@@ -1,4 +1,64 @@
-		##Curso Completo de Banco de Dados e Sql##
+12		##Curso Completo de Banco de Dados e Sql##
 	-> Primeiro software para ser instaldo é o VirtualBox
 	-> Vitualização do sistema Operacional Windows 10
+	-> Instação dos programas
+		--> Notepad++
+		--> BrModelo
+		--> StarUML
+	-> Instalação do Banco de Dados MySQL
+		--> Tipo de instalação 
+			---> Personalizada
+		--> Seleção de Produtos e Recursos
+			---> MySQL Server 5.7.20 - X86 ou superior
+			---> MySQL Workbench 6.3.9 - X64 ou superior
+			---> MySQL Shell 1.0.10 - X64
+			---> Connector/ODBC 5.3.9 - X64
+			---> MySQL Documentation 5.7.20 X86
+	-> Check Requisitos
+		--> clicar em execultar e não em next 
+	-> Instalação MySql e seus recursos
+	-> Configuração do Produto(Product Configuration)
+	-> Opção de configuração
+		--> Standalone Mysql server/ classic MySQL Replication
+	-> Type and Networking 
+		--> Config Type
+			---> Development Machine
+	--> Contas usuario	
+		-> Criar senha
+		-> add User
+	-> Windows Service
+	-> Advanced Options 
+		-->guarda pagina de erros
+		--> Marca general log e Bin Log
+	-> Comandos Diretorios de dados 
+		-> Show variables like 'datadir';
+
+	-> Ex: O cliente tera comercio s.a solicitou a modelagem de uma banco de dados
+	para cadastro dos seus clientes.
+	    A função  da unidados é anilise dos requisitos junto aos usuarios para correta
+	construção do produto. O cliente deseja que inicialmente os scripts sejam construidos para 
+	o  banco de dados MySQL, porem, posteriormente pode haver mudança no ambiente e consequentemente
+	adaptação dos scripts para outros produtos de SGBD
+	O cliente não quer nenhuma informação relativa a vendas ou estoque, desejando somenteas
+	as informações primaria de clientes.
 	
+	Construção do Banco Tera Comércio de Produtos S.A/q
+	-> Tipagem de tabela de Bancos de Dados
+		-> Char e Varchar => ex: Arvore, João, Matemática.
+			--> o tipo varchar varia de acordo como numero de caracteres, enquanto char não varia e cada espaço vazio tem
+				um tamnho de 1 byte
+			--> Utilizar char quando onumero de caracteres da coluna nunca for variante 
+				e com isso o tipo não gasta tempo variando de tamanho
+		-> Float e Int => ex: 2,908; 8; 10; 3,14
+		-> Blob => Arquivos como fotos e doc
+		-> Text => Texto longos
+		-> um banco tipado corretamente, é um banco mais leve e mais rapido
+		-> O tipo ENUM existe apenas no MySQL. Em outros bancos temos que criar Constraints.
+		-> limitações dos tipos 
+			--> Os nulos e os inteiros 
+		-> PARTES DA QUERY
+			--> PROJEÇÕES
+				---> será digitado SELECT
+			--> Seleção 
+				---> Será digitado where 
+					-- EX: Traga todos os registros de RJ

@@ -1,0 +1,16 @@
+		Flutter	
+
+	-> Como Funciona o Flutter
+		--> O Flutter adoutou  o dart como a linguagem principal,
+		pois se encaixou muito bem no propósito do Flutter.
+		--> O Flutter utiliza ema engenharia escrita em c++ e com a 
+		biblioteca de gráficos Skia do Google para a rederização dos widgtes
+		--> O Flutter possui uma implementação específica para a renderização daUI 
+		acordo com o sistema.
+	--> O que saão os Widgets
+		--> Os aplicativos construidos co flutter são criados ppr meio
+		de hierarquia de composição de widgets
+		--> O Widget é um componente que pode ser composto por um ou mais qidgets.
+		--> Essa aruitetura permite deversas composição tornando possivle fazerq
+		quase qualquer coisa
+	-> Como Instalar o Flutter  	
